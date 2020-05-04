@@ -1,35 +1,59 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 3.5rem;
     font-weight: 900;
     line-height: 1.5;
 }
 
 h2 {
-    font-family: 'Monteserrat', sans-serif;
     font-size: 3rem;
     font-weight: 600;
 }
 
 h3 {
-    font-family: 'Monteserrat', sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
+}
+
+p {
+    color: #8F8F8F;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+} 
+
+.colored-section {
+    background-color: #FF4C68;
+    color: #FFFFFF;
+}
+
+.white-section {
+    background-color: #FFFFFF;
+}
+
+#testimonials, #press {
+    background-color: #EF8172;
+}
+
+.icon:hover {
+    color: #FF4C68;
 }
 
 
 /* Title Section */
 
 #title {
-    background-color: #FF4C68;
-    color: #FFFFFF;
+    text-align: left;
 }
 
-.container-fluid {
+#title .container-fluid {
     padding: 3% 15% 7%;
 } 
 
@@ -69,19 +93,12 @@ img[alt="iphone-mockup"] {
 /* Features Section */
 
 #features {
-    background-color: #FFFFFF;
-    padding: 7% 15%;
     position: relative;
-    text-align: center;
     
 }
 
 .feature-box {
     padding: 5%;
-}
-
-#features p {
-    color: #8F8F8F;
 }
 
 .feature-icon {
@@ -90,19 +107,9 @@ img[alt="iphone-mockup"] {
     transition-duration: 0.3s;
 }
 
-.feature-icon:hover {
-    color: #FF4C68;
-}
-
 
 
 /* Testimonials Section */
-
-#testimonials {
-    background-color: #EF8172;
-    color: #FFFFFF;
-    text-align: center;
-}
 
 .testimonial-image {
     border-radius: 100%;
@@ -110,18 +117,12 @@ img[alt="iphone-mockup"] {
     width: 10%;
 }
 
-.carousel-item {
-    padding: 7% 15%;
-}
-
 
 
 /* Press Section */
 
 #press {
-    background-color: #EF8172;
     padding-bottom: 3%;
-    text-align: center;
 }
 
 .press-logo {
@@ -135,7 +136,6 @@ img[alt="iphone-mockup"] {
 
 #pricing {
     padding: 10%;
-    text-align: center;
 }
 
 .pricing-column {
@@ -144,34 +144,12 @@ img[alt="iphone-mockup"] {
 
 
 
-/* Call to Action Section */
-
-#cta {
-    background-color: #FF4C68;
-    color: #FFFFFF;
-    padding: 7% 15%;
-    text-align: center;
-}
-
-
-
 /* Footer Section */
-
-#footer {
-    background-color: #FFFFFF;
-    padding: 7% 15%;
-    text-align: center;
-}
 
 .footer-icon {
     margin: 2% 1%;
     transition-duration: 0.3s;
 }
-
-.footer-icon:hover {
-    color: #FF4C68;
-}
-
 
 
 
