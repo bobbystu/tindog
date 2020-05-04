@@ -1,0 +1,187 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Monteserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-family: 'Monteserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+/* Title Section */
+
+#title {
+    background-color: #FF4C68;
+    color: #FFFFFF;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+} 
+
+    /* Nav-Bar */
+
+    .navbar {
+        padding: 0 0 4.5rem;
+    }
+
+    .navbar-brand {
+        font-family: 'Ubuntu';
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+    .nav-item {
+        padding: 0 18px;
+    }
+
+    .nav-link {
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+img[alt="iphone-mockup"] {
+    position: absolute;
+    transform: rotate(25deg);
+    width: 60%;
+}
+
+
+
+/* Features Section */
+
+#features {
+    background-color: #FFFFFF;
+    padding: 7% 15%;
+    position: relative;
+    text-align: center;
+    
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+#features p {
+    color: #8F8F8F;
+}
+
+.feature-icon {
+    color: #EF8172;
+    margin-bottom: 1rem;
+    transition-duration: 0.3s;
+}
+
+.feature-icon:hover {
+    color: #FF4C68;
+}
+
+
+
+/* Testimonials Section */
+
+#testimonials {
+    background-color: #EF8172;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+
+/* Press Section */
+
+#press {
+    background-color: #EF8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-logo {
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+
+
+
+/* Pricing Section */
+
+#pricing {
+    padding: 10%;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+
+/* Call to Action Section */
+
+#cta {
+    background-color: #FF4C68;
+    color: #FFFFFF;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+
+
+/* Footer Section */
+
+#footer {
+    background-color: #FFFFFF;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.footer-icon {
+    margin: 2% 1%;
+    transition-duration: 0.3s;
+}
+
+.footer-icon:hover {
+    color: #FF4C68;
+}
+
+
+
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    img[alt="iphone-mockup"] {
+        position: static;
+        transform: rotate(0);
+    }
+}
